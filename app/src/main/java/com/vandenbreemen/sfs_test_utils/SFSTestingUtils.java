@@ -69,7 +69,7 @@ public class SFSTestingUtils {
      * @return
      * @throws ChunkedMediumException
      */
-    private SecureFileSystem getNewSecureFileSystem(File tempFile)
+    public static SecureFileSystem getNewSecureFileSystem(File tempFile)
             throws ChunkedMediumException {
 
         SecureString password = SecureFileSystem.generatePassword(new SecureString("password123".getBytes()));
