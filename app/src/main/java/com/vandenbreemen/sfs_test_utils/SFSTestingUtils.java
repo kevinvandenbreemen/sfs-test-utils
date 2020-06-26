@@ -11,7 +11,7 @@ import java.io.IOException;
  * Utilities for testing Secure File System code
  * @author kevin
  */
-class SFSTestingUtils {
+public class SFSTestingUtils {
 
     /**
      * Location at which to store files during tests
